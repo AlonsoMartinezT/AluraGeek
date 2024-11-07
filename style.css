@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecera{
+    height: 96px;
+    background: #5300C8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.cabecera img{
+    margin: 5px;
+}
+.cabecera-contenido{
+    display: flex;
+    align-items: center;
+}
+
+.texto-h1{
+    font-family: "Press Start 2P", system-ui;
+    margin: 0px;
+    font-size: 24px;
+    color: white;
+    flex-direction: row;
+}
+
+.main{
+    display: flex;
+    margin: 30px;
+    height: 1235px;
+    padding: 60px 40px 60px 40px;
+    gap: 70px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.productos{
+    margin: 0px;
+    width: 758px;
+    height: 600px;
+    padding: 40px 0px 0px 0px;
+    gap: 40px;
+}
+.productos h2{
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px;
+}
+.agregar{
+    margin: 0px;
+    width: 472px;
+    height: 200px;
+    padding: 40px 0px 0px 0px;
+    gap: 40px;
+}
+.agregar h2{
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+}
+
+.agregar-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.agregar-input input{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 3px solid #03318C;
+    border-radius: 15px;
+} 
+#submit{
+    background-color: #03318C;
+    color: white;
+    width: 126px;
+    text-align: center;
+}
+#limpiar{
+    width: 100px;
+    text-align: center;
+}
+
+.pie{
+    background-color: #03318C;
+    display: flex;
+    justify-content: center;
+    height: 232px;
+}
+.pie-container{
+    align-items: center;
+}
+
+.pie-contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.pie-contenido2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0pc;
+    opacity: 50%;
+}
+
