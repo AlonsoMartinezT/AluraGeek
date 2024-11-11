@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Smartphone XYZ",
+      "precio": 499.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Laptop Pro 15",
+      "precio": 1499.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Auriculares Bluetooth",
+      "precio": 89.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Reloj Inteligente",
+      "precio": 249.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Teclado Mecánico RGB",
+      "precio": 119.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Ratón Gamer",
+      "precio": 59.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Tablet 10\"",
+      "precio": 299.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Cámara Digital 4K",
+      "precio": 799.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Altavoces Inalámbricos",
+      "precio": 129.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "10",
+      "nombre": "Altavoces Inalámbricos",
+      "precio": 129.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "11",
+      "nombre": "Altavoces Inalámbricos",
+      "precio": 129.99,
+      "imagen": "./img/producto1.jpg"
+    },
+    {
+      "id": "12",
+      "nombre": "Altavoces Inalámbricos",
+      "precio": 129.99,
+      "imagen": "./img/producto1.jpg"
+    }
+  ]
+}

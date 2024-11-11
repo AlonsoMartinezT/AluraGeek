@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Agregar Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>ALURA GEEK</title>
 </head>
 <body>
@@ -20,15 +22,15 @@
         <div class="main">
             <div class="productos">
                 <h2>MIS PRODUCTOS</h2>
-                <div class="productos-container">
+                <div class="productos-container" id="productos-container" style="overflow-y: auto; max-height: 800px; max-width:800px;">
                 </div>
             </div>
             <div class="agregar">
                 <h2>AGREGAR PRODUCTOS</h2>
                 <div class="agregar-input">
-                    <input type="text" name="" id="" placeholder="Nombre...">
+                    <input type="text" name="" id="nombre" placeholder="Nombre...">
                     <input type="number" name="" id="precio" placeholder="Precio...">
-                    <input type="" name="" id="" placeholder="Imagen...">
+                    <input type="file" id="imagen" accept="image/*" placeholder="Imagen...">
                     <div class="agregar-submit">
                         <input type="submit" name="" id="submit">
                         <input type="text" name="" id="limpiar" placeholder="Limpiar">
@@ -44,7 +46,11 @@
                 <h1 class="texto-h1">AluraGeek</h1>
             </div>
             <div class="pie-contenido2">
-                <p>Desarollado por [tu nombre] || Alura Latam</p>
+                <p>Desarollado por Loxxo || Alura Latam</p>
+                <a  href="https://github.com/AlonsoMartinezT" target="_blank">
+                    <i class="fab fa-github"></i> Loxxo
+                </a>
+                
             </div>
         </div>
     </footer>
